@@ -1,5 +1,5 @@
 # Bước 1: Xây dựng ứng dụng Angular với hot reload
-FROM node:16 as build
+FROM node:18.10 as build
 
 # Thiết lập thư mục làm việc
 WORKDIR /app
